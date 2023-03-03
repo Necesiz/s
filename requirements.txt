@@ -1,3 +1,0 @@
-#teamabasov test
-pyrogram
-TgCrypto
