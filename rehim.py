@@ -4,11 +4,10 @@
 from pyrogram import Client, filters
 
 
-from Config import Config
 
-api_id = Config.API_ID
-api_hash = Config.API_HASH
-bot_token = Config.BOT_TOKEN
+api_id = "15954332"
+api_hash = "85adea6f1eaf068b707703b4846a9ced"
+bot_token = "5953314004:AAGBOQREULge79JT9WGq4MalrD2DQFb_78c"
 
 
 
@@ -24,5 +23,5 @@ async def hello(client, message):
 
 
 
-rehim.start()
+rehim.run()
 
